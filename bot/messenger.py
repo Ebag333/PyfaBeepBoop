@@ -65,5 +65,5 @@ class Messenger(object):
     def write_fit(self, channel_id, msgtext):
         msg_chunks = msgtext.split()
 
-        answer = "Testing fit: " + msg_chunks
+        answer = "Testing fit: " + str(msg_chunks[2])
         self.send_message(channel_id, answer)

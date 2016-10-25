@@ -25,11 +25,14 @@ print_my_path()
 class Messenger(object):
     def __init__(self, slack_clients):
         self.clients = slack_clients
-        root_path = getcwd()
+        json_path = getcwd()+'/json_data'
+        print ('JSON Path: '+json_path)
+        cache_path = json_path+'/eos_tq.json.bz2'
+        print('Cache Path: ' + cache_path)
 
         #EOS stuff
-        data_handler = JsonDataHandler(root_path+'/json_data')  # Folder with Phobos data dump
-        cache_handler = JsonCacheHandler(root_path+'/json_data/eos_tq.json.bz2')
+        data_handler = JsonDataHandler(json_path)  # Folder with Phobos data dump
+        cache_handler = JsonCacheHandler(cache_path)
         SourceManager.add('tiamat', data_handler, cache_handler, make_default=True)
 
         skill_groups = set(row['groupID'] for row in data_handler.get_evegroups() if row['categoryID'] == 16)

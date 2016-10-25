@@ -2,6 +2,8 @@ import json
 import logging
 import re
 
+from .modules.eos import fit
+
 logger = logging.getLogger(__name__)
 
 
@@ -50,5 +52,7 @@ class RtmEventHandler(object):
                     self.msg_writer.demo_attachment(event['channel'])
                 elif 'echo' in msg_txt:
                     self.msg_writer.send_message(event['channel'], msg_txt)
+                elif '!fit' in msg_txt:
+                    self.msg_writer.write_fit(event['channel'], msg_txt)
                 else:
                     self.msg_writer.write_prompt(event['channel'])

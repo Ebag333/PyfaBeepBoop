@@ -61,3 +61,9 @@ class Messenger(object):
             "color": "#7CD197",
         }
         self.clients.web.chat.post_message(channel_id, txt, attachments=[attachment], as_user='true')
+
+    def write_fit(self, channel_id, msgtext):
+        msg_chunks = msgtext.split()
+
+        answer = "Testing fit: " + msg_chunks[3]
+        self.send_message(channel_id, answer)

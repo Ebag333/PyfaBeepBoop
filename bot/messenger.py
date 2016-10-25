@@ -3,12 +3,25 @@
 import logging
 import random
 
+from eos import *
+from eos.holder_filter import *
+
 logger = logging.getLogger(__name__)
 
 
 class Messenger(object):
     def __init__(self, slack_clients):
         self.clients = slack_clients
+
+        #EOS stuff
+        data_handler = JsonDataHandler('.\json_data')  # Folder with Phobos data dump
+        cache_handler = JsonCacheHandler('.\json_data\eos_tq.json.bz2')
+        SourceManager.add('tiamat', data_handler, cache_handler, make_default=True)
+
+        skill_groups = set(row['groupID'] for row in data_handler.get_evegroups() if row['categoryID'] == 16)
+        self.skills = set(row['typeID'] for row in data_handler.get_evetypes() if row['groupID'] in skill_groups)
+
+        self.fit = Fit()
 
     def send_message(self, channel_id, msg):
         # in the case of Group and Private channels, RTM channel payload is a complex dictionary
@@ -65,5 +78,62 @@ class Messenger(object):
     def write_fit(self, channel_id, msgtext):
         msg_chunks = msgtext.split()
 
-        answer = "Testing fit: " + str(msg_chunks[2])
+        answer = False
+
+        try:
+            command = str(msg_chunks[2])
+        except:
+            command = ""
+            answer = "No commmand given."
+
+        try:
+            itemid = str(msg_chunks[3])
+
+            if not itemid.isnumeric():
+                itemid = False
+        except:
+            itemid = False
+
+        try:
+            state = str(msg_chunks[4])
+        except:
+            state = False
+
+        try:
+            ammo = str(msg_chunks[5])
+        except:
+            ammo = False
+
+        if command == "calc" and not answer:
+            self.fit.validate()
+            answer = "Fit total HP is: " + str(self.fit.stats.hp["total"])
+        elif command == "clear" and not answer:
+            pass
+        elif command == "ship" and itemid and not answer:
+            self.fit = Fit()
+            for skill_id in self.skills:
+                self.fit.skills.add(Skill(skill_id, level=5))
+            self.fit.ship = Ship(itemid)
+            self.fit.validate()
+            answer = "Added ship: " + str(itemid)
+        elif command == "addhigh" and not answer:
+            self.fit.modules.high.equip(ModuleHigh(itemid, state=state, charge=Charge(ammo)))
+            self.fit.validate()
+            answer = "Added high slot: " + str(itemid)
+        elif command == "addmid" and not answer:
+            self.fit.modules.med.equip(ModuleMed(itemid, state=state))
+            self.fit.validate()
+            answer = "Added mid slot: " + str(itemid)
+        elif command == "addlow" and not answer:
+            self.fit.modules.low.equip(ModuleLow(itemid, state=state))
+            self.fit.validate()
+            answer = "Added mid slot: " + str(itemid)
+        elif command == "addrig" and not answer:
+            self.fit.rigs.equip(Rig(itemid))
+            self.fit.validate()
+            answer = "Added rig: " + str(itemid)
+
+        if not answer:
+            answer = "Not sure what you're trying to do here. Try again."
+
         self.send_message(channel_id, answer)

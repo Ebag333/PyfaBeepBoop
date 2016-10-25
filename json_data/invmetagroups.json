@@ -1,0 +1,128 @@
+[
+  {
+    "descriptionID": null, 
+    "metaGroupID": 1, 
+    "metaGroupNameID": 66672, 
+    "description": "", 
+    "dataID": 16547503, 
+    "iconID": null, 
+    "metaGroupName": "Tech I"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 2, 
+    "metaGroupNameID": 66673, 
+    "description": "", 
+    "dataID": 16547504, 
+    "iconID": null, 
+    "metaGroupName": "Tech II"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 3, 
+    "metaGroupNameID": 66674, 
+    "description": "", 
+    "dataID": 16547505, 
+    "iconID": null, 
+    "metaGroupName": "Storyline"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 4, 
+    "metaGroupNameID": 66675, 
+    "description": "", 
+    "dataID": 16547506, 
+    "iconID": null, 
+    "metaGroupName": "Faction"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 5, 
+    "metaGroupNameID": 66676, 
+    "description": "", 
+    "dataID": 16547507, 
+    "iconID": null, 
+    "metaGroupName": "Officer"
+  }, 
+  {
+    "descriptionID": 66671, 
+    "metaGroupID": 6, 
+    "metaGroupNameID": 66677, 
+    "description": "Modules found in deadspace.", 
+    "dataID": 16547508, 
+    "iconID": null, 
+    "metaGroupName": "Deadspace"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 7, 
+    "metaGroupNameID": 66678, 
+    "description": "", 
+    "dataID": 16547509, 
+    "iconID": null, 
+    "metaGroupName": "Frigates"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 8, 
+    "metaGroupNameID": 66679, 
+    "description": "", 
+    "dataID": 16547510, 
+    "iconID": null, 
+    "metaGroupName": "Elite Frigates"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 9, 
+    "metaGroupNameID": 66680, 
+    "description": "", 
+    "dataID": 16547511, 
+    "iconID": null, 
+    "metaGroupName": "Commander Frigates"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 10, 
+    "metaGroupNameID": 66681, 
+    "description": "", 
+    "dataID": 16547512, 
+    "iconID": null, 
+    "metaGroupName": "Destroyer"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 11, 
+    "metaGroupNameID": 66682, 
+    "description": "", 
+    "dataID": 16547513, 
+    "iconID": null, 
+    "metaGroupName": "Cruiser"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 12, 
+    "metaGroupNameID": 66683, 
+    "description": "", 
+    "dataID": 16547514, 
+    "iconID": null, 
+    "metaGroupName": "Elite Cruiser"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 13, 
+    "metaGroupNameID": 66684, 
+    "description": "", 
+    "dataID": 16547515, 
+    "iconID": null, 
+    "metaGroupName": "Commander Cruiser"
+  }, 
+  {
+    "descriptionID": null, 
+    "metaGroupID": 14, 
+    "metaGroupNameID": 66685, 
+    "description": "", 
+    "dataID": 16547516, 
+    "iconID": null, 
+    "metaGroupName": "Tech III"
+  }
+]

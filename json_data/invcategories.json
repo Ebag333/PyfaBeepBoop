@@ -1,0 +1,267 @@
+{
+  "350001": {
+    "categoryNameID": 267649, 
+    "categoryID": 350001, 
+    "categoryName": "Infantry", 
+    "published": false
+  }, 
+  "54": {
+    "categoryNameID": 63574, 
+    "categoryID": 54, 
+    "categoryName": "Lights", 
+    "published": false
+  }, 
+  "29": {
+    "categoryNameID": 63559, 
+    "categoryID": 29, 
+    "categoryName": "Abstract", 
+    "published": false
+  }, 
+  "63": {
+    "categoryNameID": 285070, 
+    "categoryID": 63, 
+    "categoryName": "Special Edition Assets", 
+    "published": true
+  }, 
+  "49": {
+    "categoryNameID": 63571, 
+    "categoryID": 49, 
+    "categoryName": "Placeables", 
+    "published": false
+  }, 
+  "66": {
+    "categoryNameID": 308340, 
+    "categoryID": 66, 
+    "categoryName": "Structure Module", 
+    "published": true
+  }, 
+  "87": {
+    "categoryNameID": 510368, 
+    "categoryID": 87, 
+    "categoryName": "Fighter", 
+    "published": true
+  }, 
+  "24": {
+    "iconID": 0, 
+    "categoryNameID": 63557, 
+    "categoryID": 24, 
+    "categoryName": "Reaction", 
+    "published": true
+  }, 
+  "25": {
+    "categoryNameID": 63558, 
+    "categoryID": 25, 
+    "categoryName": "Asteroid", 
+    "published": true
+  }, 
+  "26": {
+    "categoryNameID": 63568, 
+    "categoryID": 26, 
+    "categoryName": "WorldSpace", 
+    "published": false
+  }, 
+  "20": {
+    "iconID": 0, 
+    "categoryNameID": 63554, 
+    "categoryID": 20, 
+    "categoryName": "Implant", 
+    "published": true
+  }, 
+  "22": {
+    "iconID": 0, 
+    "categoryNameID": 63555, 
+    "categoryID": 22, 
+    "categoryName": "Deployable", 
+    "published": true
+  }, 
+  "23": {
+    "iconID": 0, 
+    "categoryNameID": 63556, 
+    "categoryID": 23, 
+    "categoryName": "Starbase", 
+    "published": true
+  }, 
+  "46": {
+    "categoryNameID": 63570, 
+    "categoryID": 46, 
+    "categoryName": "Orbitals", 
+    "published": true
+  }, 
+  "42": {
+    "categoryNameID": 63566, 
+    "categoryID": 42, 
+    "categoryName": "Planetary Resources", 
+    "published": true
+  }, 
+  "43": {
+    "categoryNameID": 63567, 
+    "categoryID": 43, 
+    "categoryName": "Planetary Commodities", 
+    "published": true
+  }, 
+  "40": {
+    "categoryNameID": 63564, 
+    "categoryID": 40, 
+    "categoryName": "Sovereignty Structures", 
+    "published": true
+  }, 
+  "41": {
+    "categoryNameID": 63569, 
+    "categoryID": 41, 
+    "categoryName": "Planetary Interaction", 
+    "published": true
+  }, 
+  "1": {
+    "categoryNameID": 63540, 
+    "categoryID": 1, 
+    "categoryName": "Owner", 
+    "published": false
+  }, 
+  "0": {
+    "categoryNameID": 63539, 
+    "categoryID": 0, 
+    "categoryName": "#System", 
+    "published": false
+  }, 
+  "3": {
+    "categoryNameID": 63542, 
+    "categoryID": 3, 
+    "categoryName": "Station", 
+    "published": false
+  }, 
+  "2": {
+    "categoryNameID": 63541, 
+    "categoryID": 2, 
+    "categoryName": "Celestial", 
+    "published": true
+  }, 
+  "5": {
+    "iconID": 33, 
+    "categoryNameID": 63560, 
+    "categoryID": 5, 
+    "categoryName": "Accessories", 
+    "published": true
+  }, 
+  "4": {
+    "iconID": 22, 
+    "categoryNameID": 63543, 
+    "categoryID": 4, 
+    "categoryName": "Material", 
+    "published": true
+  }, 
+  "7": {
+    "iconID": 67, 
+    "categoryNameID": 63545, 
+    "categoryID": 7, 
+    "categoryName": "Module", 
+    "published": true
+  }, 
+  "6": {
+    "categoryNameID": 63544, 
+    "categoryID": 6, 
+    "categoryName": "Ship", 
+    "published": true
+  }, 
+  "9": {
+    "iconID": 21, 
+    "categoryNameID": 63547, 
+    "categoryID": 9, 
+    "categoryName": "Blueprint", 
+    "published": true
+  }, 
+  "8": {
+    "categoryNameID": 63546, 
+    "categoryID": 8, 
+    "categoryName": "Charge", 
+    "published": true
+  }, 
+  "35": {
+    "categoryNameID": 63563, 
+    "categoryID": 35, 
+    "categoryName": "Decryptors", 
+    "published": true
+  }, 
+  "11": {
+    "categoryNameID": 63549, 
+    "categoryID": 11, 
+    "categoryName": "Entity", 
+    "published": false
+  }, 
+  "10": {
+    "categoryNameID": 63548, 
+    "categoryID": 10, 
+    "categoryName": "Trading", 
+    "published": false
+  }, 
+  "39": {
+    "categoryNameID": 63565, 
+    "categoryID": 39, 
+    "categoryName": "Infrastructure Upgrades", 
+    "published": true
+  }, 
+  "59": {
+    "categoryNameID": 235965, 
+    "categoryID": 59, 
+    "categoryName": "Cells", 
+    "published": false
+  }, 
+  "14": {
+    "iconID": 0, 
+    "categoryNameID": 63550, 
+    "categoryID": 14, 
+    "categoryName": "Bonus", 
+    "published": false
+  }, 
+  "17": {
+    "iconID": 0, 
+    "categoryNameID": 63552, 
+    "categoryID": 17, 
+    "categoryName": "Commodity", 
+    "published": true
+  }, 
+  "16": {
+    "iconID": 33, 
+    "categoryNameID": 63551, 
+    "categoryID": 16, 
+    "categoryName": "Skill", 
+    "published": true
+  }, 
+  "18": {
+    "sofBuildClass": "ship", 
+    "categoryName": "Drone", 
+    "published": true, 
+    "iconID": 0, 
+    "categoryNameID": 63553, 
+    "categoryID": 18
+  }, 
+  "30": {
+    "categoryNameID": 63572, 
+    "categoryID": 30, 
+    "categoryName": "Apparel", 
+    "published": true
+  }, 
+  "53": {
+    "categoryNameID": 63573, 
+    "categoryID": 53, 
+    "categoryName": "Effects", 
+    "published": false
+  }, 
+  "34": {
+    "categoryNameID": 63561, 
+    "categoryID": 34, 
+    "categoryName": "Ancient Relics", 
+    "published": true
+  }, 
+  "32": {
+    "categoryNameID": 63562, 
+    "categoryID": 32, 
+    "categoryName": "Subsystem", 
+    "published": true
+  }, 
+  "65": {
+    "categoryNameID": 308338, 
+    "categoryID": 65, 
+    "categoryName": "Structure", 
+    "published": true
+  }
+}

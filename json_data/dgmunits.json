@@ -1,0 +1,524 @@
+[
+  {
+    "descriptionID": 77965, 
+    "dataID": 16545434, 
+    "displayName": "m", 
+    "displayNameID": 78005, 
+    "unitName": "Length", 
+    "unitID": 1, 
+    "description": "Meter"
+  }, 
+  {
+    "descriptionID": 77966, 
+    "dataID": 16545435, 
+    "displayName": "kg", 
+    "displayNameID": 78006, 
+    "unitName": "Mass", 
+    "unitID": 2, 
+    "description": "Kilogram"
+  }, 
+  {
+    "descriptionID": 77967, 
+    "dataID": 16545436, 
+    "displayName": "sec", 
+    "displayNameID": 78007, 
+    "unitName": "Time", 
+    "unitID": 3, 
+    "description": "Second"
+  }, 
+  {
+    "descriptionID": 77968, 
+    "dataID": 16545437, 
+    "displayName": "A", 
+    "displayNameID": 78008, 
+    "unitName": "Electric Current", 
+    "unitID": 4, 
+    "description": "Ampere"
+  }, 
+  {
+    "descriptionID": 77969, 
+    "dataID": 16545438, 
+    "displayName": "K", 
+    "displayNameID": 78009, 
+    "unitName": "Temperature", 
+    "unitID": 5, 
+    "description": "Kelvin"
+  }, 
+  {
+    "descriptionID": 77970, 
+    "dataID": 16545439, 
+    "displayName": "mol", 
+    "displayNameID": 78010, 
+    "unitName": "Amount Of Substance", 
+    "unitID": 6, 
+    "description": "Mole"
+  }, 
+  {
+    "descriptionID": 77971, 
+    "dataID": 16545440, 
+    "displayName": "cd", 
+    "displayNameID": 78011, 
+    "unitName": "Luminous Intensity", 
+    "unitID": 7, 
+    "description": "Candela"
+  }, 
+  {
+    "descriptionID": 77972, 
+    "dataID": 16545441, 
+    "displayName": "m2", 
+    "displayNameID": 78012, 
+    "unitName": "Area", 
+    "unitID": 8, 
+    "description": "Square meter"
+  }, 
+  {
+    "descriptionID": 77973, 
+    "dataID": 16545442, 
+    "displayName": "m3", 
+    "displayNameID": 78013, 
+    "unitName": "Volume", 
+    "unitID": 9, 
+    "description": "Cubic meter"
+  }, 
+  {
+    "descriptionID": 77974, 
+    "dataID": 16545443, 
+    "displayName": "m/sec", 
+    "displayNameID": 78014, 
+    "unitName": "Speed", 
+    "unitID": 10, 
+    "description": "Meter per second"
+  }, 
+  {
+    "descriptionID": 77975, 
+    "dataID": 16545444, 
+    "displayName": "m/sec", 
+    "displayNameID": 78015, 
+    "unitName": "Acceleration", 
+    "unitID": 11, 
+    "description": "Meter per second squared"
+  }, 
+  {
+    "descriptionID": 77976, 
+    "dataID": 16545445, 
+    "displayName": "m-1", 
+    "displayNameID": 78016, 
+    "unitName": "Wave Number", 
+    "unitID": 12, 
+    "description": "Reciprocal meter"
+  }, 
+  {
+    "descriptionID": 77977, 
+    "dataID": 16545446, 
+    "displayName": "kg/m3", 
+    "displayNameID": 78017, 
+    "unitName": "Mass Density", 
+    "unitID": 13, 
+    "description": "Kilogram per cubic meter"
+  }, 
+  {
+    "descriptionID": 77978, 
+    "dataID": 16545447, 
+    "displayName": "m3/kg", 
+    "displayNameID": 78018, 
+    "unitName": "Specific Volume", 
+    "unitID": 14, 
+    "description": "Cubic meter per kilogram"
+  }, 
+  {
+    "descriptionID": 77979, 
+    "dataID": 16545448, 
+    "displayName": "A/m2", 
+    "displayNameID": 78019, 
+    "unitName": "Current Density", 
+    "unitID": 15, 
+    "description": "Ampere per square meter"
+  }, 
+  {
+    "descriptionID": 77980, 
+    "dataID": 16545449, 
+    "displayName": "A/m", 
+    "displayNameID": 78020, 
+    "unitName": "Magnetic Field Strength", 
+    "unitID": 16, 
+    "description": "Ampere per meter"
+  }, 
+  {
+    "descriptionID": 77981, 
+    "dataID": 16545450, 
+    "displayName": "mol/m3", 
+    "displayNameID": 78021, 
+    "unitName": "Amount-Of-Substance Concentration", 
+    "unitID": 17, 
+    "description": "Mole per cubic meter"
+  }, 
+  {
+    "descriptionID": 77982, 
+    "dataID": 16545451, 
+    "displayName": "cd/m2", 
+    "displayNameID": 78022, 
+    "unitName": "Luminance", 
+    "unitID": 18, 
+    "description": "Candela per square meter"
+  }, 
+  {
+    "descriptionID": 77983, 
+    "dataID": 16545452, 
+    "displayName": "kg/kg = 1", 
+    "displayNameID": 78023, 
+    "unitName": "Mass Fraction", 
+    "unitID": 19, 
+    "description": "Kilogram per kilogram, which may be represented by the number 1"
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545453, 
+    "displayName": "s", 
+    "displayNameID": 78024, 
+    "unitName": "Milliseconds", 
+    "unitID": 101, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545454, 
+    "displayName": "mm", 
+    "displayNameID": 78025, 
+    "unitName": "Millimeters", 
+    "unitID": 102, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 13353825, 
+    "displayName": "", 
+    "displayNameID": null, 
+    "unitName": "MegaPascals", 
+    "unitID": 103, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": 77984, 
+    "dataID": 16545455, 
+    "displayName": "x", 
+    "displayNameID": 78026, 
+    "unitName": "Multiplier", 
+    "unitID": 104, 
+    "description": "Indicates that the unit is a multiplier."
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545456, 
+    "displayName": "%", 
+    "displayNameID": 78027, 
+    "unitName": "Percentage", 
+    "unitID": 105, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545457, 
+    "displayName": "tf", 
+    "displayNameID": 78028, 
+    "unitName": "Teraflops", 
+    "unitID": 106, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545458, 
+    "displayName": "MW", 
+    "displayNameID": 78029, 
+    "unitName": "MegaWatts", 
+    "unitID": 107, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": 77985, 
+    "dataID": 16545459, 
+    "displayName": "%", 
+    "displayNameID": 78030, 
+    "unitName": "Inverse Absolute Percent", 
+    "unitID": 108, 
+    "description": "Used for resistance.\r\n0.0 = 100% 1.0 = 0%\r\n"
+  }, 
+  {
+    "descriptionID": 77986, 
+    "dataID": 16545460, 
+    "displayName": "%", 
+    "displayNameID": 78031, 
+    "unitName": "Modifier Percent", 
+    "unitID": 109, 
+    "description": "Used for multipliers displayed as %\r\n1.1 = +10%\r\n0.9 = -10%"
+  }, 
+  {
+    "descriptionID": 77987, 
+    "dataID": 16545461, 
+    "displayName": "%", 
+    "displayNameID": 78032, 
+    "unitName": "Inversed Modifier Percent", 
+    "unitID": 111, 
+    "description": "Used to modify damage resistance. Damage resistance bonus.\r\n0.1 = 90%\r\n0.9 = 10%"
+  }, 
+  {
+    "descriptionID": 77988, 
+    "dataID": 16545462, 
+    "displayName": "rad/sec", 
+    "displayNameID": 78033, 
+    "unitName": "Radians/Second", 
+    "unitID": 112, 
+    "description": "Rotation speed."
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545463, 
+    "displayName": "HP", 
+    "displayNameID": 78034, 
+    "unitName": "Hitpoints", 
+    "unitID": 113, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": 77989, 
+    "dataID": 16545464, 
+    "displayName": "GJ", 
+    "displayNameID": 78035, 
+    "unitName": "capacitor units", 
+    "unitID": 114, 
+    "description": "Giga Joule"
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545465, 
+    "displayName": "groupID", 
+    "displayNameID": 78036, 
+    "unitName": "groupID", 
+    "unitID": 115, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545466, 
+    "displayName": "typeID", 
+    "displayNameID": 78037, 
+    "unitName": "typeID", 
+    "unitID": 116, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545467, 
+    "displayName": "1=small 2=medium 3=l", 
+    "displayNameID": 78038, 
+    "unitName": "Sizeclass", 
+    "unitID": 117, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545468, 
+    "displayName": "Ore units", 
+    "displayNameID": 78039, 
+    "unitName": "Ore units", 
+    "unitID": 118, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545469, 
+    "displayName": "attributeID", 
+    "displayNameID": 78040, 
+    "unitName": "attributeID", 
+    "unitID": 119, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545470, 
+    "displayName": "points", 
+    "displayNameID": 78041, 
+    "unitName": "attributePoints", 
+    "unitID": 120, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": 77990, 
+    "dataID": 16545471, 
+    "displayName": "%", 
+    "displayNameID": 78042, 
+    "unitName": "realPercent", 
+    "unitID": 121, 
+    "description": "Used for real percentages, i.e. the number 5 is 5%"
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 13353933, 
+    "displayName": "", 
+    "displayNameID": null, 
+    "unitName": "Fitting slots", 
+    "unitID": 122, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": 77991, 
+    "dataID": 16545472, 
+    "displayName": "sec", 
+    "displayNameID": 78043, 
+    "unitName": "trueTime", 
+    "unitID": 123, 
+    "description": "Shows seconds directly"
+  }, 
+  {
+    "descriptionID": 77992, 
+    "dataID": 16545473, 
+    "displayName": "%", 
+    "displayNameID": 78044, 
+    "unitName": "Modifier Relative Percent", 
+    "unitID": 124, 
+    "description": "Used for relative percentages displayed as %"
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545474, 
+    "displayName": "N", 
+    "displayNameID": 78045, 
+    "unitName": "Newton", 
+    "unitID": 125, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545475, 
+    "displayName": "ly", 
+    "displayNameID": 78046, 
+    "unitName": "Light Year", 
+    "unitID": 126, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": 77993, 
+    "dataID": 16545476, 
+    "displayName": "%", 
+    "displayNameID": 78047, 
+    "unitName": "Absolute Percent", 
+    "unitID": 127, 
+    "description": "0.0 = 0% 1.0 = 100%"
+  }, 
+  {
+    "descriptionID": 77994, 
+    "dataID": 16545477, 
+    "displayName": "Mbit/sec", 
+    "displayNameID": 78048, 
+    "unitName": "Drone bandwidth", 
+    "unitID": 128, 
+    "description": "Mega bits per second"
+  }, 
+  {
+    "descriptionID": 77995, 
+    "dataID": 16545488, 
+    "displayName": "", 
+    "displayNameID": null, 
+    "unitName": "Hours", 
+    "unitID": 129, 
+    "description": "Hours"
+  }, 
+  {
+    "descriptionID": 77996, 
+    "dataID": 16545478, 
+    "displayName": "ISK", 
+    "displayNameID": 78049, 
+    "unitName": "Money", 
+    "unitID": 133, 
+    "description": "ISK"
+  }, 
+  {
+    "descriptionID": 77997, 
+    "dataID": 16545479, 
+    "displayName": "m3/hour", 
+    "displayNameID": 78050, 
+    "unitName": "Logistical Capacity", 
+    "unitID": 134, 
+    "description": "Bandwidth for PI"
+  }, 
+  {
+    "descriptionID": 77998, 
+    "dataID": 16545480, 
+    "displayName": "AU", 
+    "displayNameID": 78051, 
+    "unitName": "Astronomical Unit", 
+    "unitID": 135, 
+    "description": "Used to denote distance, 1AU = The distance from the Earth to the Sun."
+  }, 
+  {
+    "descriptionID": 77999, 
+    "dataID": 16545481, 
+    "displayName": "Slot", 
+    "displayNameID": 78052, 
+    "unitName": "Slot", 
+    "unitID": 136, 
+    "description": "Slot number prefix for various purposes"
+  }, 
+  {
+    "descriptionID": 78000, 
+    "dataID": 16545482, 
+    "displayName": "1=True 0=False", 
+    "displayNameID": 78053, 
+    "unitName": "Boolean", 
+    "unitID": 137, 
+    "description": "For displaying boolean flags"
+  }, 
+  {
+    "descriptionID": 78001, 
+    "dataID": 16545483, 
+    "displayName": "units", 
+    "displayNameID": 78054, 
+    "unitName": "Units", 
+    "unitID": 138, 
+    "description": "Units of something, for example fuel"
+  }, 
+  {
+    "descriptionID": 78002, 
+    "dataID": 16545484, 
+    "displayName": "+", 
+    "displayNameID": 78055, 
+    "unitName": "Bonus", 
+    "unitID": 139, 
+    "description": "Forces a plus sign for positive values"
+  }, 
+  {
+    "descriptionID": 78003, 
+    "dataID": 16545485, 
+    "displayName": "Level", 
+    "displayNameID": 78056, 
+    "unitName": "Level", 
+    "unitID": 140, 
+    "description": "For anything which is divided by levels"
+  }, 
+  {
+    "descriptionID": 78004, 
+    "dataID": 16545486, 
+    "displayName": "hardpoints", 
+    "displayNameID": 78057, 
+    "unitName": "Hardpoints", 
+    "unitID": 141, 
+    "description": "For various counts to do with turret, launcher and rig hardpoints"
+  }, 
+  {
+    "descriptionID": null, 
+    "dataID": 16545487, 
+    "displayName": "1=Male 2=Unisex 3=Female", 
+    "displayNameID": 78058, 
+    "unitName": "Sex", 
+    "unitID": 142, 
+    "description": ""
+  }, 
+  {
+    "descriptionID": 312106, 
+    "dataID": 97574714, 
+    "displayName": "", 
+    "displayNameID": null, 
+    "unitName": "Datetime", 
+    "unitID": 143, 
+    "description": "Date and time"
+  }
+]

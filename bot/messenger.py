@@ -17,10 +17,10 @@ def print_my_path():
 
 print_my_path()
 
+'''
 chdir('..')
-
 print_my_path()
-
+'''
 
 class Messenger(object):
     def __init__(self, slack_clients):

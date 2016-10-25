@@ -112,9 +112,18 @@ class Messenger(object):
             itemid = False
 
         try:
-            state = str(msg_chunks[4])
+            state_chunk = str(msg_chunks[4])
+
+            if state_chunk == "active":
+                state_condition = State.active
+            elif state_chunk == "online":
+                state_condition = State.online
+            elif state_chunk == "overload":
+                state_condition = State.overload
+            else:
+                state_condition = State.offline
         except:
-            state = False
+            state_condition = State.offline
 
         try:
             ammo = str(msg_chunks[5])
@@ -134,15 +143,15 @@ class Messenger(object):
             self.fit.validate()
             answer = "Added ship: " + str(itemid)
         elif command == "addhigh" and not answer:
-            self.fit.modules.high.equip(ModuleHigh(itemid, state=state, charge=Charge(ammo)))
+            self.fit.modules.high.equip(ModuleHigh(itemid, state=state_condition, charge=Charge(ammo)))
             self.fit.validate()
             answer = "Added high slot: " + str(itemid)
         elif command == "addmid" and not answer:
-            self.fit.modules.med.equip(ModuleMed(itemid, state=state))
+            self.fit.modules.med.equip(ModuleMed(itemid, state=state_condition))
             self.fit.validate()
             answer = "Added mid slot: " + str(itemid)
         elif command == "addlow" and not answer:
-            self.fit.modules.low.equip(ModuleLow(itemid, state=state))
+            self.fit.modules.low.equip(ModuleLow(itemid, state=state_condition))
             self.fit.validate()
             answer = "Added mid slot: " + str(itemid)
         elif command == "addrig" and not answer:

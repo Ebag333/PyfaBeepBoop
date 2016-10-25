@@ -2,7 +2,7 @@ import json
 import logging
 import re
 
-from .modules.eos import fit
+from modules.eos import fit
 
 logger = logging.getLogger(__name__)
 

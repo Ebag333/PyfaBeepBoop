@@ -40,15 +40,15 @@ class RtmEventHandler(object):
 
             if self.clients.is_bot_mention(msg_txt):
                 # e.g. user typed: "@pybot tell me a joke!"
-                if 'help' in msg_txt:
+                if '!help' in msg_txt:
                     self.msg_writer.write_help_message(event['channel'])
-                elif re.search('hi|hey|hello|howdy', msg_txt):
+                elif re.search('!hi|!hey|!hello|!howdy', msg_txt):
                     self.msg_writer.write_greeting(event['channel'], event['user'])
-                elif 'joke' in msg_txt:
+                elif '!joke' in msg_txt:
                     self.msg_writer.write_joke(event['channel'])
-                elif 'attachment' in msg_txt:
+                elif '!attachment' in msg_txt:
                     self.msg_writer.demo_attachment(event['channel'])
-                elif 'echo' in msg_txt:
+                elif '!echo' in msg_txt:
                     self.msg_writer.send_message(event['channel'], msg_txt)
                 elif '!fit' in msg_txt:
                     self.msg_writer.write_fit(event['channel'], msg_txt)
